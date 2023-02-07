@@ -1,0 +1,107 @@
+@import url('https://fonts.cdnfonts.com/css/geomanist');
+
+                
+
+
+.container-card {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    
+}
+  
+.element1 {
+    grid-column: 1 / 2;
+    
+  }
+  
+  .element2 {
+    grid-column: 2 / 3;
+
+  }
+  
+.element1 img{
+    width: 200px;
+    height: 200px;
+    z-index:2;
+}
+
+.container-card{
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 20px;
+    background-color: #000000;
+}
+
+.element2{
+    color: #ffffff;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titles-product{
+    text-align: center;
+    color: white;
+}
+
+.titles-product .btn-title{
+    cursor:pointer;
+    padding: 0.7rem 1rem;
+    border: 2px solid transparent;
+    background: #ffffff;
+    color:#000000;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+    transition-duration: 1.5s;
+}
+.titles-product .btn-title:hover{
+    background: #696969;
+    transform: translateY(-5px);
+}
+
+.redes-product{
+    margin: 2rem 5rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  .redes-product li{
+    padding: 1rem;
+  }
+  .redes-product li a{
+    font-size: 32px;
+    font-family: "Morganite";
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .Property_Details{
+    cursor:pointer;
+    padding: 0.7rem 1rem;
+    border: 2px solid transparent;
+    background: #ffffff;
+    color:#000000;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+    transition-duration: 1.5s;
+}
+.Property_Details:hover{
+    background: #696969;
+    transform: translateY(-5px);
+}
+
+.element2 h3{
+    font-family: "Whitelove";
+    font-size: 32px;
+    font-weight: 200;
+    padding: 1rem;
+}
+.element2 p{
+    font-family: "Geomanist";
+    font-size: 16px;
+    font-weight: 200;
+    padding: 1rem;
+}

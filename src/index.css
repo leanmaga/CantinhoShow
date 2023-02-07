@@ -1,0 +1,167 @@
+@font-face {
+  font-family: 'Whitelove';
+  src: url('./assets/Fonts/Whitelove.otf');
+}
+@font-face {
+  font-family: 'Morganite';
+  src: url('./assets/Fonts/Morganite.woff');
+}
+@font-face {
+  font-family: 'Geomanist';
+  src: url('./assets/Fonts/Geomanist.woff');
+}
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.container{
+  heigth: 100vh;
+  display:grid;
+  grid-template-columns: 1fr 3fr 0.3fr;
+}
+
+.container-black{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100vh;
+  background-color: black;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.container-white{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+  height:100vh;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.logo{
+  margin:2rem;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+.portada{
+  position: absolute;
+  top:20%;
+  left:35%;
+  width: 400px;
+  height: 400px;
+  z-index:3;
+}
+.redes{
+  margin:2rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.redes li{
+  padding: 1rem;
+}
+.redes li a{
+  font-size: 32px;
+  font-family: "Morganite";
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+}
+.title{
+  font-size: 72px;
+  font-weight: bold;
+  font-family: 'Whitelove';
+  padding: 1rem;
+}
+.subtitle{
+  font-family: 'Whitelove';
+  font-size: 32px;
+  font-weight: 200;
+  padding-top: 0;
+}
+.btn-title{
+  margin-top: 1rem;
+}
+
+.container-navbar{
+  list-style: none;
+  width: 100%;
+  height: 100vh; 
+  border-left: 1px solid #e5e5e5;
+}
+
+nav{
+  width: 100px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+nav ul{
+  list-style:none;  
+  display: flex;
+  flex-direction: row;
+  transform: rotate(90deg);
+  justify-content: space-evenly;
+}
+
+nav ul li{
+  padding: 1rem;
+}
+nav ul li a{
+  font-size: 32px;
+  font-family: "Morganite";
+  color: #000000;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-nav{
+  cursor:pointer;
+  margin: 2rem;
+  border:none;
+  background: transparent;
+  width: 50px;
+  height: 50px;
+  transition-duration: 1.5s;
+}
+
+.btn-nav:hover{
+  color: #696969;
+  transform: translateY(-5px);
+}
+
+.btn-nav a{
+  font-size: 32px;
+  font-family: "Morganite";
+  color: #000000;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-title{
+  cursor:pointer;
+  padding: 0.7rem 1rem;
+  border: 2px solid transparent;
+  background: #000000;
+  color:#ffffff;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+  transition-duration: 1.5s;
+}
+.btn-title:hover{
+  background: #696969;
+  transform: translateY(-5px);
+}
